@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para ti Yeii</title>
+    <style>
+nav {
+  background-color: #ffb6c1;
+  padding: 1em 2em;
+   display: flex;
+     justify-content: space-between;
+     align-items: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 999px;
+    }
+
+.nav-left {
+      display: flex;
+      align-items: center;
+      gap: 0.75em;
+    }
+
+    .nav-left img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    
+    .nav-left h1 {
+      margin: 0;
+      font-size: 1.5em;
+      color: #d10b0b;
+      box-shadow: #d10b0b;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 1.5em;
+      border-radius: 999px; /* Esto crea el óvalo del ul */
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    }
+
+    
+    nav ul li a {
+      text-decoration: none;
+      color: #e40c0c;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    
+    nav ul li a:hover {
+      color: #fff;
+    }
+
+
+    /*estilo de la dedicatoria*/
+
+    .dedicatoria {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fffafa;
+  padding: 2em;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  margin: 3em auto;
+  max-width: 800px;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.contenido-dedicatoria {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.contenido-dedicatoria h2 {
+  color: #d81b60;
+  margin-bottom: 0.5em;
+  font-size: 24px;
+}
+
+.contenido-dedicatoria p {
+  font-size: 16px;
+  color: #6b0f1a;
+  line-height: 1.6;
+}
+
+.firma {
+  margin-top: 1em;
+  font-weight: bold;
+  color: #c2185b;
+}
+
+.galeria-fotos {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.galeria-fotos img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+          <a href="index.html">
+      <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" alt="Logo" />
+    </a>
+    <h1>Mi Carta</h1>
+    </div>
+  
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="Carta.html">Carta</a></li>
+      <li><a href="final.html">Final</a></li>
+    </ul>
+  </nav>
+  <br><br><br>
+
+  <article class="dedicatoria">
+  <div class="galeria-fotos izquierda">
+    <!-- Aquí puedes colocar imágenes -->
+    <img src="foto1.jpeg" alt="US">
+    <img src="foto2.jpeg" alt="US">
+  </div>
+
+  <div class="contenido-dedicatoria">
+    <h2>Una última razón…</h2>
+    <p>
+      Después de todo lo que he escrito, solo quiero recordarte que realmente no hay un porqué exacto, simplemente lo siento en mi alma.  
+      solo se que hay algo especial en tí que te hace tan importante para mí. Eres quien hace que mis facetas que mas me averguenzan, salgan con mucha confianza.  
+      Gracias por ser parte de mi vida y por ser tú, exactamente como eres.
+    </p>
+    <p class="firma">Con todo mi amor, Tu Roe 💗</p>
+  </div>
+
+  <div class="galeria-fotos derecha">
+    <!-- Aquí puedes colocar más imágenes -->
+    <img src="foto3.jpeg" alt="YOU">
+    <img src="foto4.jpeg" alt="ME">
+  </div>
+</article>
+
+
+</body>
+</html>
